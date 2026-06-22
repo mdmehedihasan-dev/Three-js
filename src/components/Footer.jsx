@@ -5,12 +5,10 @@ const Footer = () => {
   return (
     <footer className='footer font-poppins'>
       <hr className='border-slate-200' />
-
       <div className='footer-container'>
         <p>
           © 2025 <strong>Mehedi Hasan</strong>. All rights reserved.
         </p>
-
         <div className='flex items-center justify-center gap-3'>
           {socialLinks.map((link) => (
             <Link key={link.name} to={link.link} target='_blank'>
